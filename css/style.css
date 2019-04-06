@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e2e7ec;
+    font-size: 14px;
+}
+
+.blog {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.blog-item {
+    display: flex;
+    width: 360px;
+    min-height: 540px;
+    flex-direction: column;
+    
+}
+
+.blog-item--large {
+    width: 740px;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+}
